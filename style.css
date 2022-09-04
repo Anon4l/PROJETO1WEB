@@ -137,7 +137,6 @@ a {
     max-height: 4.063rem;
     line-height: 1;
     margin: -0.188rem 3.313rem 0 4.25rem;
-
 }
 
 ul {
@@ -335,4 +334,33 @@ body {
 
 li:hover{
     font-weight: bold;
+}
+
+
+
+@media (max-width: 360px) {
+    .botaocall:hover{
+        background-color: #018551;
+
+    }
+
+    .logo {
+        max-width: 9.375rem;
+        max-height: 4.063rem;
+        line-height: 1;
+        margin: 0.7rem;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .bannerimg{
+        padding-top: 2rem;
+    }
+
+    .logbutton{
+        background-color: #FFF;
+    }
+
 }
