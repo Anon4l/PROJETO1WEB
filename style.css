@@ -17,7 +17,8 @@ img {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: auto;
+    margin: 0px;
+    z-index: 1;
 }
 
 .logbutton {
@@ -34,6 +35,9 @@ img {
     font-weight: normal;
     font-family: "Open Sans", sans-serif;
     padding: 0.4375rem 0.9375rem;
+    padding-top: 0rem;
+    margin-left: 1rem;
+
 }
 
 .searchbar {
@@ -78,6 +82,10 @@ img {
 }
 .navbarinner {
     margin-right: 0.5rem;
+    box-shadow: 0px 2px 6px 0px  rgba(16, 16, 16, 0.75);
+    z-index: 100;
+    width: 100%;
+
 }
 
 a {
@@ -122,6 +130,11 @@ ul {
     display: flex;
     flex-direction: row;
     flex-wrap: inherit;
+}
+
+.bannerimg {
+    width: 100%;
+
 }
 
 .banner {
