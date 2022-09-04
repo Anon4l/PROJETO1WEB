@@ -94,12 +94,15 @@ font-family: sans-serif;
 line-height: 25px;
 letter-spacing: 0;
 color: #5b5c65;
-padding-right: 1.9rem
+padding-right: 1.9rem;
+border-top : 2px solid #f2f2f2;
+
 }
 
 .navinnerright {
     text-align: left;
     font-size: 0.75rem;
+    border-top : 2px solid #f2f2f2;
     
 }
 
