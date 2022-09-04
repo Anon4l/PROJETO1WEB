@@ -46,6 +46,10 @@ img {
     padding-top: 6px;
 }
 
+.logbutton:hover{
+    background-color: #00401a;
+}
+
 .searchbar {
     background-color: #f4f4f4;
     color: #5b5c65;
