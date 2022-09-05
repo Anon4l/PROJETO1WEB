@@ -7,7 +7,6 @@ img {
     max-height: fit-content;
 }
 
-
 .navbar {
     max-width: 75%;
     padding-top: 1.250rem;
@@ -356,7 +355,7 @@ li:hover {
 
 
 
-@media (max-width: 360px) {
+@media screen and (max-width:500px) {
 
     #mobile{
         padding: 0.6rem;
@@ -409,5 +408,3 @@ li:hover {
     }
 
 }
-
-
