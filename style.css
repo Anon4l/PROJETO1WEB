@@ -1,3 +1,7 @@
+#mobile{
+    display: none;
+}
+
 img {
     vertical-align: middle;
     max-height: fit-content;
@@ -338,31 +342,70 @@ li:hover{
     font-weight: bold;
 }
 
+.viverbem{
+    margin-top: -0.3rem;
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 2.813rem;
+    letter-spacing: 0;
+    color: #00995d;
+    font-weight: bold;
+}
+
 
 
 @media (max-width: 360px) {
+
+    #mobile{
+        padding: 0.6rem;
+        display: block;
+    }
+
+    .logbutton2{
+        background-color: #FFF;
+        border: none;
+        font-size: 1rem;
+        font-weight: 600;
+        font-weight: normal;
+        font-family: "Open Sans", sans-serif;
+        padding: 0.4375rem 0.9375rem;
+        padding-top: 0rem;
+        margin-left: 0.8rem;
+        margin-right: 0.3rem;
+        width: 7.188rem;
+        height: 2.5rem;
+        font-weight: bold;
+        padding-top: 0.375rem;
+        color: slategrey;
+    }
+
+    .logbutton2 img{
+        padding-right: 0.2rem;
+    }
+
     .botaocall:hover{
         background-color: #018551;
 
-    }
-
-    .logo {
-        max-width: 9.375rem;
-        max-height: 4.063rem;
-        line-height: 1;
-        margin: 0.7rem;
     }
 
     .navbar{
         display: none;
     }
 
-    .bannerimg{
-        padding-top: 2rem;
+    .logo{
+        display: none;
     }
 
     .logbutton{
         background-color: #FFF;
+    }
+
+    .callus p{
+        line-height: 1.1rem;
+    }
+
+    .smalltext{
+        padding: 0 1.3rem 1.3rem 1.3rem;
     }
 
 }
