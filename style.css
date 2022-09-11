@@ -355,7 +355,7 @@ li:hover {
 
 
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:800px) {
 
     #mobile{
         padding: 0.6rem;
